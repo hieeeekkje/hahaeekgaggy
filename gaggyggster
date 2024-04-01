@@ -6,6 +6,13 @@ if r and h then
         wait(0.1) -- Adjust the delay as needed
     end
 end
+
+
+-- Gui to Lua
+-- Version: 3.2
+
+-- Instances:
+
 local ScreenGui = Instance.new("ScreenGui")
 local Frame = Instance.new("Frame")
 local UICorner = Instance.new("UICorner")
@@ -53,14 +60,14 @@ local BASEPLATE = Instance.new("TextButton")
 local UICorner_22 = Instance.new("UICorner")
 local UIAspectRatioConstraint = Instance.new("UIAspectRatioConstraint")
 
--- Properties
+--Properties:
 
 ScreenGui.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
 ScreenGui.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
 
 Frame.Parent = ScreenGui
-Frame.BackgroundColor3 = Color3.new(0.552941, 0.552941, 0.552941)
-Frame.BorderColor3 = Color3.new(0, 0, 0)
+Frame.BackgroundColor3 = Color3.fromRGB(141, 141, 141)
+Frame.BorderColor3 = Color3.fromRGB(0, 0, 0)
 Frame.BorderSizePixel = 0
 Frame.Position = UDim2.new(0.105263174, 0, 0.528252125, 0)
 Frame.Size = UDim2.new(0, 406, 0, 219)
@@ -69,8 +76,8 @@ UICorner.Parent = Frame
 
 _1.Name = "1"
 _1.Parent = Frame
-_1.BackgroundColor3 = Color3.new(0.454902, 0.454902, 0.454902)
-_1.BorderColor3 = Color3.new(0, 0, 0)
+_1.BackgroundColor3 = Color3.fromRGB(116, 116, 116)
+_1.BorderColor3 = Color3.fromRGB(0, 0, 0)
 _1.BorderSizePixel = 0
 _1.Position = UDim2.new(0.0221674871, 0, 0.183537439, 0)
 _1.Size = UDim2.new(0, 388, 0, 173)
@@ -79,171 +86,171 @@ UICorner_2.Parent = _1
 
 Color.Name = "Color"
 Color.Parent = _1
-Color.BackgroundColor3 = Color3.new(0.709804, 0.709804, 0.709804)
-Color.BorderColor3 = Color3.new(0, 0, 0)
+Color.BackgroundColor3 = Color3.fromRGB(181, 181, 181)
+Color.BorderColor3 = Color3.fromRGB(0, 0, 0)
 Color.BorderSizePixel = 0
 Color.Position = UDim2.new(0.0506957546, 0, 0.199269906, 0)
 Color.Size = UDim2.new(0, 55, 0, 26)
 Color.Font = Enum.Font.SourceSans
 Color.Text = "Color All"
-Color.TextColor3 = Color3.new(0, 0, 0)
-Color.TextSize = 14
+Color.TextColor3 = Color3.fromRGB(0, 0, 0)
+Color.TextSize = 14.000
 
 UICorner_3.Parent = Color
 
 BumAll.Name = "BumAll"
 BumAll.Parent = _1
-BumAll.BackgroundColor3 = Color3.new(0.709804, 0.709804, 0.709804)
-BumAll.BorderColor3 = Color3.new(0, 0, 0)
+BumAll.BackgroundColor3 = Color3.fromRGB(181, 181, 181)
+BumAll.BorderColor3 = Color3.fromRGB(0, 0, 0)
 BumAll.BorderSizePixel = 0
 BumAll.Position = UDim2.new(0.424407095, 0, 0.199269906, 0)
 BumAll.Size = UDim2.new(0, 55, 0, 26)
 BumAll.Font = Enum.Font.SourceSans
 BumAll.Text = "BumAll"
-BumAll.TextColor3 = Color3.new(0, 0, 0)
-BumAll.TextSize = 14
+BumAll.TextColor3 = Color3.fromRGB(0, 0, 0)
+BumAll.TextSize = 14.000
 
 UICorner_4.Parent = BumAll
 
 bighead.Name = "bighead"
 bighead.Parent = _1
-bighead.BackgroundColor3 = Color3.new(0.709804, 0.709804, 0.709804)
-bighead.BorderColor3 = Color3.new(0, 0, 0)
+bighead.BackgroundColor3 = Color3.fromRGB(181, 181, 181)
+bighead.BorderColor3 = Color3.fromRGB(0, 0, 0)
 bighead.BorderSizePixel = 0
 bighead.Position = UDim2.new(0.798118353, 0, 0.199269906, 0)
 bighead.Size = UDim2.new(0, 55, 0, 26)
 bighead.Font = Enum.Font.SourceSans
 bighead.Text = "Big Head"
-bighead.TextColor3 = Color3.new(0, 0, 0)
-bighead.TextSize = 14
+bighead.TextColor3 = Color3.fromRGB(0, 0, 0)
+bighead.TextSize = 14.000
 
 UICorner_5.Parent = bighead
 
 la.Name = "la"
 la.Parent = _1
-la.BackgroundColor3 = Color3.new(0.709804, 0.709804, 0.709804)
-la.BorderColor3 = Color3.new(0, 0, 0)
+la.BackgroundColor3 = Color3.fromRGB(181, 181, 181)
+la.BorderColor3 = Color3.fromRGB(0, 0, 0)
 la.BorderSizePixel = 0
 la.Position = UDim2.new(0.857396781, 0, 0.84666878, 0)
 la.Size = UDim2.new(0, 55, 0, 26)
 la.Font = Enum.Font.SourceSans
 la.Text = ">"
-la.TextColor3 = Color3.new(0, 0, 0)
-la.TextSize = 14
+la.TextColor3 = Color3.fromRGB(0, 0, 0)
+la.TextSize = 14.000
 
 UICorner_6.Parent = la
 
 SpamDecal.Name = "SpamDecal"
 SpamDecal.Parent = _1
-SpamDecal.BackgroundColor3 = Color3.new(0.709804, 0.709804, 0.709804)
-SpamDecal.BorderColor3 = Color3.new(0, 0, 0)
+SpamDecal.BackgroundColor3 = Color3.fromRGB(181, 181, 181)
+SpamDecal.BorderColor3 = Color3.fromRGB(0, 0, 0)
 SpamDecal.BorderSizePixel = 0
 SpamDecal.Position = UDim2.new(0.0481184348, 0, 0.41892308, 0)
 SpamDecal.Size = UDim2.new(0, 55, 0, 47)
 SpamDecal.Font = Enum.Font.SourceSans
 SpamDecal.Text = "Decal Spam"
-SpamDecal.TextColor3 = Color3.new(0, 0, 0)
-SpamDecal.TextSize = 14
+SpamDecal.TextColor3 = Color3.fromRGB(0, 0, 0)
+SpamDecal.TextSize = 14.000
 
 UICorner_7.Parent = SpamDecal
 
 TextBox.Parent = SpamDecal
-TextBox.BackgroundColor3 = Color3.new(0.705882, 0.705882, 0.705882)
-TextBox.BorderColor3 = Color3.new(0, 0, 0)
+TextBox.BackgroundColor3 = Color3.fromRGB(180, 180, 180)
+TextBox.BorderColor3 = Color3.fromRGB(0, 0, 0)
 TextBox.BorderSizePixel = 0
 TextBox.Position = UDim2.new(1.24985957, 0, 0.176763654, 0)
 TextBox.Size = UDim2.new(0, 179, 0, 30)
 TextBox.Font = Enum.Font.SourceSansBold
-TextBox.PlaceholderColor3 = Color3.new(0.807843, 0.807843, 0.807843)
+TextBox.PlaceholderColor3 = Color3.fromRGB(206, 206, 206)
 TextBox.PlaceholderText = "Enter Decal ID"
 TextBox.Text = ""
-TextBox.TextColor3 = Color3.new(0, 0, 0)
+TextBox.TextColor3 = Color3.fromRGB(0, 0, 0)
 TextBox.TextScaled = true
-TextBox.TextSize = 14
+TextBox.TextSize = 14.000
 TextBox.TextWrapped = true
 
 UICorner_8.Parent = TextBox
 
 Skybox.Name = "Skybox"
 Skybox.Parent = _1
-Skybox.BackgroundColor3 = Color3.new(0.709804, 0.709804, 0.709804)
-Skybox.BorderColor3 = Color3.new(0, 0, 0)
+Skybox.BackgroundColor3 = Color3.fromRGB(181, 181, 181)
+Skybox.BorderColor3 = Color3.fromRGB(0, 0, 0)
 Skybox.BorderSizePixel = 0
 Skybox.Position = UDim2.new(0.0481184348, 0, 0.725281477, 0)
 Skybox.Size = UDim2.new(0, 55, 0, 47)
 Skybox.Font = Enum.Font.SourceSans
 Skybox.Text = "Sky"
-Skybox.TextColor3 = Color3.new(0, 0, 0)
-Skybox.TextSize = 14
+Skybox.TextColor3 = Color3.fromRGB(0, 0, 0)
+Skybox.TextSize = 14.000
 Skybox.TextWrapped = true
 
 UICorner_9.Parent = Skybox
 
 TextBox_2.Parent = Skybox
-TextBox_2.BackgroundColor3 = Color3.new(0.705882, 0.705882, 0.705882)
-TextBox_2.BorderColor3 = Color3.new(0, 0, 0)
+TextBox_2.BackgroundColor3 = Color3.fromRGB(180, 180, 180)
+TextBox_2.BorderColor3 = Color3.fromRGB(0, 0, 0)
 TextBox_2.BorderSizePixel = 0
 TextBox_2.Position = UDim2.new(1.24985957, 0, 0.176763654, 0)
 TextBox_2.Size = UDim2.new(0, 179, 0, 30)
 TextBox_2.Font = Enum.Font.SourceSansBold
-TextBox_2.PlaceholderColor3 = Color3.new(0.807843, 0.807843, 0.807843)
+TextBox_2.PlaceholderColor3 = Color3.fromRGB(206, 206, 206)
 TextBox_2.PlaceholderText = "Enter Decal ID"
 TextBox_2.Text = ""
-TextBox_2.TextColor3 = Color3.new(0, 0, 0)
+TextBox_2.TextColor3 = Color3.fromRGB(0, 0, 0)
 TextBox_2.TextScaled = true
-TextBox_2.TextSize = 14
+TextBox_2.TextSize = 14.000
 TextBox_2.TextWrapped = true
 
 UICorner_10.Parent = TextBox_2
 
 F.Name = "F"
 F.Parent = _1
-F.BackgroundColor3 = Color3.new(0.709804, 0.709804, 0.709804)
-F.BorderColor3 = Color3.new(0, 0, 0)
+F.BackgroundColor3 = Color3.fromRGB(181, 181, 181)
+F.BorderColor3 = Color3.fromRGB(0, 0, 0)
 F.BorderSizePixel = 0
 F.Position = UDim2.new(0.798118412, 0, 0.41892308, 0)
 F.Size = UDim2.new(0, 55, 0, 26)
 F.Font = Enum.Font.SourceSans
 F.Text = "FireAll"
-F.TextColor3 = Color3.new(0, 0, 0)
-F.TextSize = 14
+F.TextColor3 = Color3.fromRGB(0, 0, 0)
+F.TextSize = 14.000
 
 UICorner_11.Parent = F
 
 RT.Name = "RT"
 RT.Parent = _1
-RT.BackgroundColor3 = Color3.new(0.709804, 0.709804, 0.709804)
-RT.BorderColor3 = Color3.new(0, 0, 0)
+RT.BackgroundColor3 = Color3.fromRGB(181, 181, 181)
+RT.BorderColor3 = Color3.fromRGB(0, 0, 0)
 RT.BorderSizePixel = 0
 RT.Position = UDim2.new(0.803273082, 0, 0.638576269, 0)
 RT.Size = UDim2.new(0, 55, 0, 26)
 RT.Font = Enum.Font.SourceSans
 RT.Text = "RainToads"
-RT.TextColor3 = Color3.new(0, 0, 0)
-RT.TextSize = 14
+RT.TextColor3 = Color3.fromRGB(0, 0, 0)
+RT.TextSize = 14.000
 
 UICorner_12.Parent = RT
 
 Welcome.Name = "Welcome"
 Welcome.Parent = Frame
-Welcome.BackgroundColor3 = Color3.new(0.74902, 0.74902, 0.74902)
-Welcome.BorderColor3 = Color3.new(0.654902, 0.654902, 0.654902)
+Welcome.BackgroundColor3 = Color3.fromRGB(191, 191, 191)
+Welcome.BorderColor3 = Color3.fromRGB(167, 167, 167)
 Welcome.BorderSizePixel = 0
 Welcome.Position = UDim2.new(0.070615612, 0, 0.0748663098, 0)
 Welcome.Size = UDim2.new(0, 346, 0, 20)
 Welcome.Font = Enum.Font.SourceSans
 Welcome.Text = "Gaggy's Hub"
-Welcome.TextColor3 = Color3.new(0, 0, 0)
+Welcome.TextColor3 = Color3.fromRGB(0, 0, 0)
 Welcome.TextScaled = true
-Welcome.TextSize = 14
+Welcome.TextSize = 14.000
 Welcome.TextWrapped = true
 
 UICorner_13.Parent = Welcome
 
 _2.Name = "2"
 _2.Parent = Frame
-_2.BackgroundColor3 = Color3.new(0.454902, 0.454902, 0.454902)
-_2.BorderColor3 = Color3.new(0, 0, 0)
+_2.BackgroundColor3 = Color3.fromRGB(116, 116, 116)
+_2.BorderColor3 = Color3.fromRGB(0, 0, 0)
 _2.BorderSizePixel = 0
 _2.Position = UDim2.new(0.0221674871, 0, 0.183537439, 0)
 _2.Size = UDim2.new(0, 388, 0, 173)
@@ -253,128 +260,128 @@ UICorner_14.Parent = _2
 
 Thomas.Name = "Thomas"
 Thomas.Parent = _2
-Thomas.BackgroundColor3 = Color3.new(0.709804, 0.709804, 0.709804)
-Thomas.BorderColor3 = Color3.new(0, 0, 0)
+Thomas.BackgroundColor3 = Color3.fromRGB(181, 181, 181)
+Thomas.BorderColor3 = Color3.fromRGB(0, 0, 0)
 Thomas.BorderSizePixel = 0
 Thomas.Position = UDim2.new(0.0506956764, 0, 0.048980888, 0)
 Thomas.Size = UDim2.new(0, 55, 0, 26)
 Thomas.Font = Enum.Font.SourceSans
 Thomas.Text = "Become Thomas"
-Thomas.TextColor3 = Color3.new(0, 0, 0)
+Thomas.TextColor3 = Color3.fromRGB(0, 0, 0)
 Thomas.TextScaled = true
-Thomas.TextSize = 14
+Thomas.TextSize = 14.000
 Thomas.TextWrapped = true
 
 UICorner_15.Parent = Thomas
 
 KAS.Name = "KAS"
 KAS.Parent = _2
-KAS.BackgroundColor3 = Color3.new(0.709804, 0.709804, 0.709804)
-KAS.BorderColor3 = Color3.new(0, 0, 0)
+KAS.BackgroundColor3 = Color3.fromRGB(181, 181, 181)
+KAS.BorderColor3 = Color3.fromRGB(0, 0, 0)
 KAS.BorderSizePixel = 0
 KAS.Position = UDim2.new(0.424407005, 0, 0.048980888, 0)
 KAS.Size = UDim2.new(0, 55, 0, 26)
 KAS.Font = Enum.Font.SourceSans
 KAS.Text = "Kill all"
-KAS.TextColor3 = Color3.new(0, 0, 0)
-KAS.TextSize = 14
+KAS.TextColor3 = Color3.fromRGB(0, 0, 0)
+KAS.TextSize = 14.000
 
 UICorner_16.Parent = KAS
 
 bu.Name = "bu"
 bu.Parent = _2
-bu.BackgroundColor3 = Color3.new(0.709804, 0.709804, 0.709804)
-bu.BorderColor3 = Color3.new(0, 0, 0)
+bu.BackgroundColor3 = Color3.fromRGB(181, 181, 181)
+bu.BorderColor3 = Color3.fromRGB(0, 0, 0)
 bu.BorderSizePixel = 0
 bu.Position = UDim2.new(0.857396781, 0, 0.84666878, 0)
 bu.Size = UDim2.new(0, 55, 0, 26)
 bu.Font = Enum.Font.SourceSans
 bu.Text = ">"
-bu.TextColor3 = Color3.new(0, 0, 0)
-bu.TextSize = 14
+bu.TextColor3 = Color3.fromRGB(0, 0, 0)
+bu.TextSize = 14.000
 
 UICorner_17.Parent = bu
 
 button.Name = "button"
 button.Parent = _2
-button.BackgroundColor3 = Color3.new(0.709804, 0.709804, 0.709804)
-button.BorderColor3 = Color3.new(0, 0, 0)
+button.BackgroundColor3 = Color3.fromRGB(181, 181, 181)
+button.BorderColor3 = Color3.fromRGB(0, 0, 0)
 button.BorderSizePixel = 0
 button.Position = UDim2.new(-0.000850716839, 0, 0.84666878, 0)
 button.Size = UDim2.new(0, 55, 0, 26)
 button.Font = Enum.Font.SourceSans
 button.Text = "<"
-button.TextColor3 = Color3.new(0, 0, 0)
-button.TextSize = 14
+button.TextColor3 = Color3.fromRGB(0, 0, 0)
+button.TextSize = 14.000
 
 UICorner_18.Parent = button
 
 Booall.Name = "Boo all"
 Booall.Parent = _2
-Booall.BackgroundColor3 = Color3.new(0.709804, 0.709804, 0.709804)
-Booall.BorderColor3 = Color3.new(0, 0, 0)
+Booall.BackgroundColor3 = Color3.fromRGB(181, 181, 181)
+Booall.BorderColor3 = Color3.fromRGB(0, 0, 0)
 Booall.BorderSizePixel = 0
 Booall.Position = UDim2.new(0.424407005, 0, 0.34955892, 0)
 Booall.Size = UDim2.new(0, 55, 0, 26)
 Booall.Font = Enum.Font.SourceSans
 Booall.Text = "Personality.."
-Booall.TextColor3 = Color3.new(0, 0, 0)
+Booall.TextColor3 = Color3.fromRGB(0, 0, 0)
 Booall.TextScaled = true
-Booall.TextSize = 14
+Booall.TextSize = 14.000
 Booall.TextWrapped = true
 
 UICorner_19.Parent = Booall
 
 Unanchor.Name = "Unanchor"
 Unanchor.Parent = _2
-Unanchor.BackgroundColor3 = Color3.new(0.709804, 0.709804, 0.709804)
-Unanchor.BorderColor3 = Color3.new(0, 0, 0)
+Unanchor.BackgroundColor3 = Color3.fromRGB(181, 181, 181)
+Unanchor.BorderColor3 = Color3.fromRGB(0, 0, 0)
 Unanchor.BorderSizePixel = 0
 Unanchor.Position = UDim2.new(0.0506956764, 0, 0.34955892, 0)
 Unanchor.Size = UDim2.new(0, 55, 0, 26)
 Unanchor.Font = Enum.Font.SourceSans
 Unanchor.Text = "Unanchor"
-Unanchor.TextColor3 = Color3.new(0, 0, 0)
-Unanchor.TextSize = 14
+Unanchor.TextColor3 = Color3.fromRGB(0, 0, 0)
+Unanchor.TextSize = 14.000
 
 UICorner_20.Parent = Unanchor
 
 fires.Name = "fires"
 fires.Parent = _2
-fires.BackgroundColor3 = Color3.new(0.709804, 0.709804, 0.709804)
-fires.BorderColor3 = Color3.new(0, 0, 0)
+fires.BackgroundColor3 = Color3.fromRGB(181, 181, 181)
+fires.BorderColor3 = Color3.fromRGB(0, 0, 0)
 fires.BorderSizePixel = 0
 fires.Position = UDim2.new(0.42698434, 0, 0.638576269, 0)
 fires.Size = UDim2.new(0, 55, 0, 26)
 fires.Font = Enum.Font.SourceSans
 fires.Text = "Fire"
-fires.TextColor3 = Color3.new(0, 0, 0)
-fires.TextSize = 14
+fires.TextColor3 = Color3.fromRGB(0, 0, 0)
+fires.TextSize = 14.000
 
 UICorner_21.Parent = fires
 
 BASEPLATE.Name = "BASEPLATE"
 BASEPLATE.Parent = _2
-BASEPLATE.BackgroundColor3 = Color3.new(0.709804, 0.709804, 0.709804)
-BASEPLATE.BorderColor3 = Color3.new(0, 0, 0)
+BASEPLATE.BackgroundColor3 = Color3.fromRGB(181, 181, 181)
+BASEPLATE.BorderColor3 = Color3.fromRGB(0, 0, 0)
 BASEPLATE.BorderSizePixel = 0
 BASEPLATE.Position = UDim2.new(0.0506956764, 0, 0.638576269, 0)
 BASEPLATE.Size = UDim2.new(0, 55, 0, 26)
 BASEPLATE.Font = Enum.Font.SourceSans
 BASEPLATE.Text = "Make Baseplate"
-BASEPLATE.TextColor3 = Color3.new(0, 0, 0)
+BASEPLATE.TextColor3 = Color3.fromRGB(0, 0, 0)
 BASEPLATE.TextScaled = true
-BASEPLATE.TextSize = 14
+BASEPLATE.TextSize = 14.000
 BASEPLATE.TextWrapped = true
 
 UICorner_22.Parent = BASEPLATE
 
 UIAspectRatioConstraint.Parent = ScreenGui
-UIAspectRatioConstraint.AspectRatio = 1.6994328498840332
+UIAspectRatioConstraint.AspectRatio = 1.699
 
--- Scripts
+-- Scripts:
 
-local function IDZNBFB_fake_script() -- Color.LocalScript 
+local function CUMIYYP_fake_script() -- Color.LocalScript 
 	local script = Instance.new('LocalScript', Color)
 
 	local function C_c()
@@ -617,8 +624,8 @@ local function IDZNBFB_fake_script() -- Color.LocalScript
 	end;
 	task.spawn(C_c);
 end
-coroutine.wrap(IDZNBFB_fake_script)()
-local function IWWZUE_fake_script() -- BumAll.LocalScript 
+coroutine.wrap(CUMIYYP_fake_script)()
+local function CFXO_fake_script() -- BumAll.LocalScript 
 	local script = Instance.new('LocalScript', BumAll)
 
 	local function C_9()
@@ -909,8 +916,8 @@ local function IWWZUE_fake_script() -- BumAll.LocalScript
 	task.spawn(C_9);
 	
 end
-coroutine.wrap(IWWZUE_fake_script)()
-local function NIFMI_fake_script() -- bighead.LocalScript 
+coroutine.wrap(CFXO_fake_script)()
+local function YNDAQ_fake_script() -- bighead.LocalScript 
 	local script = Instance.new('LocalScript', bighead)
 
 	local function C_6()
@@ -1134,8 +1141,8 @@ local function NIFMI_fake_script() -- bighead.LocalScript
 	end;
 	task.spawn(C_6);
 end
-coroutine.wrap(NIFMI_fake_script)()
-local function KYCDXB_fake_script() -- la.LocalScript 
+coroutine.wrap(YNDAQ_fake_script)()
+local function KJFXEDF_fake_script() -- la.LocalScript 
 	local script = Instance.new('LocalScript', la)
 
 	local button = script.Parent
@@ -1152,8 +1159,8 @@ local function KYCDXB_fake_script() -- la.LocalScript
 	end
 	
 end
-coroutine.wrap(KYCDXB_fake_script)()
-local function RHVCL_fake_script() -- SpamDecal.LocalScript 
+coroutine.wrap(KJFXEDF_fake_script)()
+local function KALU_fake_script() -- SpamDecal.LocalScript 
 	local script = Instance.new('LocalScript', SpamDecal)
 
 	local function C_f()
@@ -1690,8 +1697,8 @@ local function RHVCL_fake_script() -- SpamDecal.LocalScript
 	end;
 	task.spawn(C_f);
 end
-coroutine.wrap(RHVCL_fake_script)()
-local function ZLVZ_fake_script() -- Skybox.LocalScript 
+coroutine.wrap(KALU_fake_script)()
+local function KSIOXL_fake_script() -- Skybox.LocalScript 
 	local script = Instance.new('LocalScript', Skybox)
 
 	local function C_27()
@@ -1974,8 +1981,8 @@ local function ZLVZ_fake_script() -- Skybox.LocalScript
 	end;
 	task.spawn(C_27);
 end
-coroutine.wrap(ZLVZ_fake_script)()
-local function FOSRMVU_fake_script() -- F.LocalScript 
+coroutine.wrap(KSIOXL_fake_script)()
+local function MJCTNV_fake_script() -- F.LocalScript 
 	local script = Instance.new('LocalScript', F)
 
 	local function C_12()
@@ -2397,8 +2404,8 @@ local function FOSRMVU_fake_script() -- F.LocalScript
 	end;
 	task.spawn(C_12);
 end
-coroutine.wrap(FOSRMVU_fake_script)()
-local function QCSM_fake_script() -- RT.LocalScript 
+coroutine.wrap(MJCTNV_fake_script)()
+local function IXREUI_fake_script() -- RT.LocalScript 
 	local script = Instance.new('LocalScript', RT)
 
 	local function C_15()
@@ -2578,8 +2585,8 @@ local function QCSM_fake_script() -- RT.LocalScript
 	end;
 	task.spawn(C_15);
 end
-coroutine.wrap(QCSM_fake_script)()
-local function NWSUQN_fake_script() -- Welcome.RainbowText 
+coroutine.wrap(IXREUI_fake_script)()
+local function LNNDEPU_fake_script() -- Welcome.RainbowText 
 	local script = Instance.new('Script', Welcome)
 
 	local text = script.Parent
@@ -2610,8 +2617,8 @@ local function NWSUQN_fake_script() -- Welcome.RainbowText
 	end
 	
 end
-coroutine.wrap(NWSUQN_fake_script)()
-local function GDNBN_fake_script() -- Thomas.LocalScript 
+coroutine.wrap(LNNDEPU_fake_script)()
+local function SIVFO_fake_script() -- Thomas.LocalScript 
 	local script = Instance.new('LocalScript', Thomas)
 
 	local function C_18()
@@ -2856,8 +2863,8 @@ local function GDNBN_fake_script() -- Thomas.LocalScript
 	end;
 	task.spawn(C_18);
 end
-coroutine.wrap(GDNBN_fake_script)()
-local function BVRGV_fake_script() -- KAS.LocalScript 
+coroutine.wrap(SIVFO_fake_script)()
+local function QORUG_fake_script() -- KAS.LocalScript 
 	local script = Instance.new('LocalScript', KAS)
 
 	local function C_21()
@@ -3079,15 +3086,15 @@ local function BVRGV_fake_script() -- KAS.LocalScript
 	end;
 	task.spawn(C_21);
 end
-coroutine.wrap(BVRGV_fake_script)()
-local function SBEZDS_fake_script() -- bu.LocalScript 
+coroutine.wrap(QORUG_fake_script)()
+local function VJDR_fake_script() -- bu.LocalScript 
 	local script = Instance.new('LocalScript', bu)
 
 	print("Hello world!")
 	
 end
-coroutine.wrap(SBEZDS_fake_script)()
-local function TMIW_fake_script() -- button.LocalScript 
+coroutine.wrap(VJDR_fake_script)()
+local function MGCH_fake_script() -- button.LocalScript 
 	local script = Instance.new('LocalScript', button)
 
 	--gaggy
@@ -3108,8 +3115,8 @@ local function TMIW_fake_script() -- button.LocalScript
 	end
 	
 end
-coroutine.wrap(TMIW_fake_script)()
-local function NYPASAA_fake_script() -- Booall.LocalScript 
+coroutine.wrap(MGCH_fake_script)()
+local function LSHI_fake_script() -- Booall.LocalScript 
 	local script = Instance.new('LocalScript', Booall)
 
 	local function C_24()
@@ -3401,8 +3408,8 @@ local function NYPASAA_fake_script() -- Booall.LocalScript
 	end;
 	task.spawn(C_24);
 end
-coroutine.wrap(NYPASAA_fake_script)()
-local function MUMV_fake_script() -- Unanchor.LocalScript 
+coroutine.wrap(LSHI_fake_script)()
+local function FQFU_fake_script() -- Unanchor.LocalScript 
 	local script = Instance.new('LocalScript', Unanchor)
 
 	local function C_1b()
@@ -3625,8 +3632,8 @@ local function MUMV_fake_script() -- Unanchor.LocalScript
 	end;
 	task.spawn(C_1b);
 end
-coroutine.wrap(MUMV_fake_script)()
-local function ZZAX_fake_script() -- fires.LocalScript 
+coroutine.wrap(FQFU_fake_script)()
+local function UYGJ_fake_script() -- fires.LocalScript 
 	local script = Instance.new('LocalScript', fires)
 
 	local function C_33()
@@ -3860,8 +3867,8 @@ local function ZZAX_fake_script() -- fires.LocalScript
 	end;
 	task.spawn(C_33);
 end
-coroutine.wrap(ZZAX_fake_script)()
-local function GGJJZ_fake_script() -- BASEPLATE.LocalScript 
+coroutine.wrap(UYGJ_fake_script)()
+local function BIOEJ_fake_script() -- BASEPLATE.LocalScript 
 	local script = Instance.new('LocalScript', BASEPLATE)
 
 	local function C_1e()
@@ -4115,8 +4122,8 @@ local function GGJJZ_fake_script() -- BASEPLATE.LocalScript
 	end;
 	task.spawn(C_1e);
 end
-coroutine.wrap(GGJJZ_fake_script)()
-local function VZQR_fake_script() -- Frame.DragScript 
+coroutine.wrap(BIOEJ_fake_script)()
+local function EIRKDN_fake_script() -- Frame.DragScript 
 	local script = Instance.new('LocalScript', Frame)
 
 	
@@ -4156,4 +4163,4 @@ local function VZQR_fake_script() -- Frame.DragScript
 	end)
 	
 end
-coroutine.wrap(VZQR_fake_script)()
+coroutine.wrap(EIRKDN_fake_script)()
